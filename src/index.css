@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ------ Body style start ------ */
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #091e40;
+}
+/* ------ Body style end ------ */
+
+/* ------ Custom scrollbar style start ------ */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;      
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0af886;       
+  border-radius: 10px;     
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3cf99e;      
+}

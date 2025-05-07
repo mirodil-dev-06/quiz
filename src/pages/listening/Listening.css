@@ -1,0 +1,36 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  .table th {
+    background-color: #4CAF50;
+    color: white;
+    font-family: sans-serif;
+  }
+  .form-check-input {
+    margin: 0 auto;
+    display: block;
+    accent-color: #4CAF50;
+  }
+  .btn{
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+  .btn:hover{
+    opacity: .7;
+    transition: .2s ease-in-out;
+  }

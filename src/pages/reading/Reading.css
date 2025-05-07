@@ -1,0 +1,13 @@
+.reading{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.slider2{
+    width: 100%;
+
+}
+.reading__quiz{
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+{
+  "images": [
+    {
+      "src": "./images/download.png",
+      "alt": "Yuklab olish rasmi",
+      "caption": "Bu yuklab olish tugmasi rasmi"
+    },
+    {
+      "src": "./images/logo.png",
+      "alt": "Sayt logotipi",
+      "caption": "Asosiy sayt logotipi"
+    },
+    {
+      "src": "./images/slider1.jpg",
+      "alt": "Slider rasmi 1",
+      "caption": "Birinchi slider rasmi"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+src/
+├── assets/            # Statik fayllar (rasmlar, fontlar, videolar)
+│   ├── images/
+│   ├── fonts/
+│   └── styles/
+├── components/        # Qayta ishlatiladigan komponentlar
+│   ├── common/        # Umumiy komponentlar (buttons, inputs)
+│   ├── ui/            # UI komponentlari
+│   └── ...            # Boshqa komponentlar
+├── containers/        # Container komponentlari (smart components)
+├── contexts/          # React Context fayllari
+├── hooks/             # Maxsus React Hooklar
+├── pages/             # Sahifa komponentlari (route-based)
+├── layouts/           # Loyiha layoutlari
+├── routes/            # Routing konfiguratsiyasi
+├── services/          # API chaqiruvlari va tashqi xizmatlar
+├── store/             # Redux/Zustand/Jotai store (agar kerak bo'lsa)
+│   ├── slices/
+│   ├── actions/
+│   └── reducers/
+├── utils/             # Yordamchi funksiyalar va utilitilar
+├── constants/         # Doimiy qiymatlar (API urllar, theme config)
+├── types/             # TypeScript typelari (agar TS ishlatilsa)
+├── tests/             # Test fayllari
+│   ├── unit/
+│   └── integration/
+└── App.jsx            # Asosiy App komponenti
+└── main.jsx           # Entry point
