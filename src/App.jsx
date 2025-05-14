@@ -12,7 +12,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const correctPassword = "your_secret_password";
+    const correctPassword = "ibrokhim";
     const userPassword = prompt('Saytga kirish uchun parolni kiriting:');
 
     if (userPassword === correctPassword) {
