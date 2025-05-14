@@ -11,3 +11,10 @@
 .reading__quiz{
     width: 100%;
 }
+@media (max-width: 768px) {
+    .reading{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

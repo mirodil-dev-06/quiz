@@ -31,6 +31,7 @@
 
 @media (max-width: 768px) {
     .nav__item {
+        display: flex;
       flex-direction: column;
       gap: 10px;
     }
@@ -39,5 +40,19 @@
       width: 90%;
       text-align: center;
       padding: 10px;
+    
+    }
+    .nav__item-link{
+      background-color: transparent;
+      padding: 0;
+    }
+    .nav__item-link:hover{
+      background-color: transparent;
+    }
+    .nav__item-link a{
+      color: #ffffff;
+    }
+    .nav__item-link a:hover{
+      color: #d2d0d0;
     }
   }

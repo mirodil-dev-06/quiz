@@ -342,12 +342,6 @@ const Quiz = () => {
               <p><strong>Tugash vaqti:</strong> {endTime.toLocaleString()}</p>
             </div>
             <p className="results__container-info">Ma'lumotlaringiz Telegram botga yuborildi</p>
-            <button 
-              className="reset-btn"
-              onClick={handleResetTest}
-            >
-              Yangi Test Boshlash
-            </button>
           </div>
         )}
       </div>

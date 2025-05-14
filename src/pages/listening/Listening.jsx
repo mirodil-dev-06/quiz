@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import '../listening/Listening.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import music from '../../assets/music.mp3'
 
 const Listening = () => {
   const questions = [
@@ -175,6 +176,10 @@ const Listening = () => {
           Qayta Urinish
         </button>
       )}
+      <br /><br />
+      <audio controls src={music}>
+        Your browser does not support the audio element.
+      </audio>
     </div>
   );
 };

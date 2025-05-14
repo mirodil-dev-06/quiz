@@ -163,7 +163,11 @@
     color: #f44336;
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
+    .quiz{
+      display: flex;
+      flex-direction: column;
+    }
     .options {
       grid-template-columns: 1fr;
     }
