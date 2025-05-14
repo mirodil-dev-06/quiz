@@ -286,12 +286,6 @@ const Quiz = () => {
             ) : (
               <div className="test-info">
                 <p>Test boshlangan: {startTime.toLocaleTimeString()}</p>
-                <button 
-                  className="reset-btn"
-                  onClick={handleResetTest}
-                >
-                  Testni Qayta Boshlash
-                </button>
               </div>
             )}
           </div>
